@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Inicio</title>
+	
+
+	<!--GOOGLE FONTS-->
+	
+	
+	<link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+</head>
+<body>
+	<div id="contenedor">
+		
+		<section>
+			<center><img src="imagenes/libreta-negro.jpg" height="75px"></center>
+			<header style="text-align: center;">
+				<h1>Página Web La Bendición</h1>
+				<h5>De todo en productos de libreria</h5>
+			</header>
+		</section>
+
+		<div id="contenedor_tabla">
+		<table id="tabla_principal">
+			<tr>
+				<th>#</th>
+				<th>red</th>
+				<th>yellow</th>
+				<th>blue</th>
+				<th>green</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td id="red"></td>
+				<td id="yellow"></td>
+				<td id="blue"></td>
+				<td id="green"></td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td id="red"><img src="imagenes/p-tabla2.jpeg" alt="blueyellow"> </td>
+				<td id="yellow"><img src="imagenes/libreta-rojo.jpg" alt="red"></td>
+				<td id="blue"> <img src="imagenes/p-tabla2.jpeg" alt="green"> </td>
+				<td id="green"><img src="imagenes/libreta-negro.jpg" alt="coldplay"></td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td id="red"><img src="imagenes/p-tabla1.jpeg" alt="logo2"></td>
+				<td id="yellow"><img src="imagenes/p-tabla2.jpeg" alt="blueyellow"> </td>
+				<td id="blue"><img src="imagenes/p-tabla1.jpeg" alt="logo2"></td>
+				<td id="green"><img src="imagenes/p-tabla2.jpeg" alt="blueyellow"> </td>
+			</tr>
+		</table>
+		</div>
+
+		<footer>
+		<div class="footer">
+		<div class="row">
+		<a href="#"><	i class="fa fa-facebook"></i></a>
+		<a href="#"><i class="fa fa-instagram"></i></a>
+		<a href="#"><i class="fa fa-youtube"></i></a>
+		<a href="#"><i class="fa fa-twitter"></i></a>
+		</div>
+
+		<div class="row">
+		<ul>
+		<li><a href="#">Contact us</a></li>
+		<li><a href="#">Our Services</a></li>
+		<li><a href="#">Privacy Policy</a></li>
+		<li><a href="#">Terms & Conditions</a></li>
+		<li><a href="#">Career</a></li>
+		</ul>
+		</div>
+
+		<div class="row">
+		INFERNO Copyright © 2021 Inferno - All rights reserved || Designed By: Mahesh 
+		<p>hecho y ejecutado desde <a href="https://alvarotrigo.com/blog/website-footers/" target="_blank">https://alvarotrigo.com/blog/website-footers/</a></p>
+		</div>
+		</div>
+		</footer>
+	</div>
+</body>
+</html>
